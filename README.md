@@ -1,4 +1,4 @@
 InventoryBundle
 ===============
 
-Symfony bundle thwt helps to learn what is going on in a big project.
+Symfony bundle that helps to learn what is going on in a big project.
