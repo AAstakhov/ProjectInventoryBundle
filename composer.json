@@ -1,8 +1,8 @@
 {
-    "name": "atomatics/inventory-bundle",
+    "name": "atomatics/project-inventory-bundle",
     "autoload": {
         "psr-4" : {
-            "Atomatics\\InventoryBundle\\" : ""
+            "Atomatics\\ProjectInventoryBundle\\" : ""
         }
     }
 }
