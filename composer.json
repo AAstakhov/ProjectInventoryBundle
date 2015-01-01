@@ -4,6 +4,6 @@
         "psr-4" : {
             "AAstakhov\\ProjectInventoryBundle\\" : ""
         }
-    }
+    },
     "minimum-stability": "dev"
 }
