@@ -5,4 +5,5 @@
             "AAstakhov\\ProjectInventoryBundle\\" : ""
         }
     }
+    "minimum-stability": "dev"
 }
