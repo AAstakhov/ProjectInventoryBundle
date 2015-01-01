@@ -1,8 +1,8 @@
 {
-    "name": "atomatics/project-inventory-bundle",
+    "name": "aastakhov/project-inventory-bundle",
     "autoload": {
         "psr-4" : {
-            "Atomatics\\ProjectInventoryBundle\\" : ""
+            "AAstakhov\\ProjectInventoryBundle\\" : ""
         }
     }
 }
