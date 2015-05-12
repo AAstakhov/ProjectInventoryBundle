@@ -1,6 +1,6 @@
 # Intro
 
-Information about project is already available in the coonsole:
+Information about project is already available in the console:
 * php app/console twig:debug 
 * php app/console container:debug
 * php app/console debug:route
