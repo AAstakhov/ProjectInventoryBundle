@@ -5,5 +5,8 @@
             "AAstakhov\\ProjectInventoryBundle\\" : ""
         }
     },
+    "require-dev": {
+        "phpunit/phpunit": "5.*"
+    },
     "minimum-stability": "dev"
 }
