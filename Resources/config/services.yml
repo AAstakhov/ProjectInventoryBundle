@@ -1,0 +1,23 @@
+services:
+  aastakhov.project_inventory.report.preparer_type.service:
+    class: AAstakhov\ProjectInventoryBundle\Report\Preparer\TypeServicePreparer
+
+  aastakhov.project_inventory.report.preparer_type.bundle:
+    class: AAstakhov\ProjectInventoryBundle\Report\Preparer\TypeBundlePreparer
+
+  aastakhov.project_inventory.report.preparer_provider:
+    class: AAstakhov\ProjectInventoryBundle\Report\Preparer\PreparerProvider
+    arguments:
+      - @aastakhov.project_inventory.report.preparer_type.bundle
+      - @aastakhov.project_inventory.report.preparer_type.service
+
+  aastakhov.project_inventory.report.storage:
+    class: AAstakhov\ProjectInventoryBundle\Report\ReportStorage
+    arguments:
+      - @twig
+
+  aastakhov.project_inventory.report.generator:
+    class: AAstakhov\ProjectInventoryBundle\Report\ReportGenerator
+    arguments:
+      - @aastakhov.project_inventory.report.preparer_provider
+      - @aastakhov.project_inventory.report.storage
